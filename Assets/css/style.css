@@ -1,3 +1,4 @@
+/* all elements by default*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -6,6 +7,12 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* the whole body unless specified by element, class, or id */
+body {
+    background-color: #d9dcd6;
+}
+
+/* the furthmost top of the body css */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,10 +41,8 @@ header nav ul li a {
     text-decoration: none;
 }
 
-body {
-    background-color: #d9dcd6;
-}
 
+/* section following the background image */
 main {
     width: 75%;
     display: inline-block;
@@ -61,6 +66,7 @@ main section h2 {
     font-size: 36px;
 }
 
+/* aside on the right side of screen */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -98,6 +104,7 @@ p {
     font-size: 16px;
 }
 
+/* main background img for website */
 .hero {
     height: 800px;
     width: 100%;
@@ -107,20 +114,24 @@ p {
     background-position: center;
 }
 
+/* has the img go to left in the main section */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* has img to right in the main section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* creates a class for the footer text */
 .blackfooter {
     color:#000000
 }
 
+/* id for part of the name Horiseon which is "seo" */
 #seo {
     color: #d9dcd6;   
 }
